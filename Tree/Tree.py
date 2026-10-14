@@ -85,7 +85,9 @@ class Node:
         if self.isEmpty() == True:
             print ("404 Not Found")
         else:
-            
+            return
+        pass
+        
                 
     # def delete(self):
     #     x = input("Enter your Node: ")
