@@ -28,7 +28,7 @@ class Node:
                 else:
                     par = cur
                     cur = cur.right
-            if par > y:
+            if par.data > y:
                 par.left = x
             else:
                 par.right = x
